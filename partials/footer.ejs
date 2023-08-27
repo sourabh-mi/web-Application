@@ -1,0 +1,65 @@
+<section id="footer">
+    <img src="media/border2.png" alt="" id="footer-img">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mt-4">
+                <img src="media/logo.png" alt="" id="footer-logo">
+                <p>
+                    <%=addrecord.about%>
+                </p>
+            </div>
+            <div class="col-md-4 mt-4">
+                <h2> STech Software Pvt.Ltd</h2>
+                <table>
+                    <tr>
+                        <td><i class="bi  bi-buildings-fill"></td>
+                        <td>
+                            <p>
+                                <%=addrecord.add%>
+                            </p>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td> <i class="bi bi-telephone-fill"></i></td>
+                        <td>
+                            <p>+0111-<%=addrecord.tel%></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <i class="bi bi-phone"></i></td>
+                        <td>
+                            <p>+91<%=addrecord.mob%></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <i class="bi bi-envelope"></i></td>
+                        <td>
+                            <p>
+                                <%=addrecord.email%>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-4 mt-4">
+                <h2>Query Form</h2>
+                <form action="" method="post">
+                    <input type="email" name="email" id="" class="form-control mt-2 mb-3" placeholder="Enter email">
+
+                    <textarea name="query" id="" class="form-control " placeholder="Enter Query"></textarea>
+                    <button type="submit" class="btn btn-danger form-control  mt-2"> Send </button>
+                </form>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-12 ">
+                <a href="<%=addrecord.insta%>"><img src="media/instagram-icon.png" alt=""></a>
+                <a href="<%=addrecord.twit%>"><img src="media/twitter-icon.png" alt=""></a>
+                <a href="<%=addrecord.In%>"><img src="media/linkedin-icon.png" alt=""></a>
+
+            </div>
+        </div>
+    </div>
+</section>

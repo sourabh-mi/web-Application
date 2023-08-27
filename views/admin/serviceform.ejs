@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="/admin/css/style.css">
+</head>
+<body>
+    
+                       <%- include('../../partials/admin/header.ejs')%>
+                        <section id="mid">
+                                      <div class="conatiner">
+                                        <div class="row">
+                                            <%- include('../../partials/admin/left.ejs')%>
+                                            <div class="col-md-9">
+                                               <h2> Service Add Here!</h2>
+                                               <form action="" method="post" enctype="multipart/form-data">
+                                                <label for="">Service Title</label >
+                                                <input type="text" name="Stitle" id="" class="form-control" style="border-color:blueviolet">
+                                                <label for="">Service Description</label>
+                                                <input type="text" name="Sdisc" id="" class="form-control" style="border-color:blueviolet">
+                                                <label for="">Service MoreDetails</label>
+                                                <input type="text" name="Smd" id="" class="form-control" style="border-color:blueviolet">
+                                                <label for="" class="mt-2 mb-2">Service Image</label>
+                                                <input type="file" name="img" id="" style="border-color:blueviolet">
+                                               
+                                                <button type="submit" class="form-control btn btn-danger mt-2 mb-2">Update</button>
+                                         
+                                               </form>
+                                            </div>
+                                        </div>
+                                      </div>
+                         </section>
+                      <%- include('../../partials/admin/footer.ejs')%>
+</body>
+</html>

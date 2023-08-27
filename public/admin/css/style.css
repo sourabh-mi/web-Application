@@ -1,0 +1,54 @@
+#message{
+    align-items: center;
+    display: flex;
+    height: 700px;
+    font-size: 30px;
+    border-radius: 30%;
+    
+
+}
+#mid h2{
+    text-align: center;
+}
+#mid table tr td img{
+    width:50px;
+}
+#mid table tr td{
+    font-size: 14px;
+    
+}
+#mid table tr td .bi{
+    font-size: 16px;
+}
+#mid table tr {
+    font-size: 15px;
+}
+h2{
+    color: blue;
+    
+
+}
+#login{
+    display: grid;
+      align-items: center;
+      height: 600px
+}
+
+#login h2{
+    text-align: center;
+}
+#header{
+    background-color:sienna;
+    padding: 15px,0px;
+}
+#header h4{ 
+   color: aliceblue;
+
+}
+#header button{
+   float: right;
+}
+
+#footer{
+ background-color: blueviolet;   
+}

@@ -1,0 +1,170 @@
+#mid h2{
+   text-align: center;
+}
+
+#mid h2{
+   text-align: center;
+   margin: 15px 0px;
+}
+#mid p{
+   text-align: justify;
+   margin: 20px 0px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+#mid1 {
+   background-color: azure ;
+   text-align: center;
+}
+#mid1 p{
+ background-color: rgb(98, 98, 247);
+}
+
+#header{
+    background:linear-gradient(to right, rgb(4,120,109), rgb(36,7,117))
+}
+#header ul li a {
+    color:aliceblue;
+    font-size: 27px;
+    
+}
+
+
+
+#header img {
+    width: 100px;
+    box-shadow: 10px 10px rgb(193, 77, 77);
+}
+#header i{
+    color: white;
+    font-size: 30px;
+}
+#header .container-fluid{
+padding-left: 120px ;
+}
+
+#banner{
+   background:linear-gradient(to right, rgb(4,120,109), rgb(36,7,117))
+}
+#banner #banner-img{
+   width: 130px;
+    border-radius: 40%;
+    
+}
+#banner img{
+   width: 100%;
+
+}
+#banner h5{
+   
+   text-align: center;
+  font-size: 32px;
+   color:black;
+   margin-top: 5px;
+   padding-bottom: 5px;
+  }
+  #banner p{
+   color:white;
+   text-align: justify;
+   font-family: Georgia, serif;
+   font-size: 18px;
+  }
+#services h2{
+   text-align: center;
+   font-family: system-ui;
+   font-size:40px;
+   
+}
+#services h5{
+   font-family: 'Lobster', cursive;
+} 
+#services img{
+   width:60px;
+   margin-bottom: 20px;
+}
+#services p{
+   text-align: justify;
+   font-family: 'Aleo', serif;
+}
+#services{
+   margin-bottom: 30px;
+}
+#services h2{
+   margin-bottom: 20px;
+}
+
+#testi img {
+width:80px;
+border-radius: 50%;
+margin-bottom: 20px;
+margin-bottom: 20px;
+}
+#testi .col-md-3{
+   display:flex;
+   flex-direction: column;
+}
+#testi .col-md-3 img{
+justify-content: center;
+}
+#testi h2{
+ 
+   text-align: center;
+   padding-bottom: 40px;
+   font-family: 'Fjalla One', sans-serif;
+   
+}
+#testi p{
+   font-size: 20px;
+      font-family: 'Pacifico', cursive;
+      text-align: justify;
+      
+   }
+#testi h5{
+   
+   font-family: 'Lobster', cursive;
+}
+#footer{
+
+    background:linear-gradient(to right, rgb(4,120,109), rgb(36,7,117))
+   
+
+ }
+ #footer #footer-logo{
+    width:130px;
+    padding-top: 20px;
+   margin-right: 20px; 
+ }
+ #footer table tr td{
+    margin-right: 10px;
+
+ }
+ #footer #footer-img{
+   width:100%;
+ }
+ #footer img{
+    width:40px;
+    margin-bottom: 15px;
+     
+ }
+ #footer i{
+    color:white;
+ }
+ #footer{
+    padding-bottom: 10px;
+
+ }
+ #footer table tr {
+    color:dodgerblue;
+    display: flex;
+ }
+ #footer p{
+   
+    color:white;
+    text-align: justify;
+ }
+ #footer h2{
+    font-family: 'Aleo', serif;
+    padding-top: 30px;
+    margin-bottom: 30px;
+ }
+ 
